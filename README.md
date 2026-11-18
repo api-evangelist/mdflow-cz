@@ -1,4 +1,4 @@
-# mdflow-cz
+# MDflow
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mdflow-cz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mdflow.cz/
+MDflow provides an online markdown workspace that lets individuals, teams, and AI agents create, edit, share, and search plain markdown files. It includes features such as a Monaco‑based editor, task lists generated from checkboxes, public knowledgebase links, API and MCP interfaces for agents, and integrations with GitHub, Google Drive, OneDrive, and a web clipper. The service targets users who need portable documentation and context for both human collaboration and AI tooling.
+
+**Areas:** Markdown editor · Knowledgebase · AI agents · API · Web clipper
+
+## MDflow on APIs.io
+
+Everything profiled for MDflow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mdflow-cz/](https://apis.io/providers/mdflow-cz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [MDflow Documents API](https://apis.io/apis/mdflow-cz/mdflow-cz-documents-api/) — The Documents API from MDflow — 8 operation(s) for documents.
+- [MDflow Folders API](https://apis.io/apis/mdflow-cz/mdflow-cz-folders-api/) — The Folders API from MDflow — 3 operation(s) for folders.
+- [MDflow Team documents API](https://apis.io/apis/mdflow-cz/mdflow-cz-team-documents-api/) — Team API (/api/team/v1) — authenticated with a Team access token.
+- [MDflow Team folders API](https://apis.io/apis/mdflow-cz/mdflow-cz-team-folders-api/) — Team API (/api/team/v1) — authenticated with a Team access token.
+- [MDflow Team workspaces API](https://apis.io/apis/mdflow-cz/mdflow-cz-team-workspaces-api/) — Team API (/api/team/v1) — authenticated with a Team access token.
+- [MDflow Workspaces API](https://apis.io/apis/mdflow-cz/mdflow-cz-workspaces-api/) — The Workspaces API from MDflow — 2 operation(s) for workspaces.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MDflow Agentic Access](https://apis.io/agentic-access/mdflow-cz/mdflow-cz-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Document](https://apis.io/schemas/mdflow-cz/mdflow-cz-document/)
+- [DocumentListItem](https://apis.io/schemas/mdflow-cz/mdflow-cz-document-list-item/)
+- [Folder](https://apis.io/schemas/mdflow-cz/mdflow-cz-folder/)
+- [FolderDetail](https://apis.io/schemas/mdflow-cz/mdflow-cz-folder-detail/)
+- [TeamFolder](https://apis.io/schemas/mdflow-cz/mdflow-cz-team-folder/)
+- [TeamWorkspace](https://apis.io/schemas/mdflow-cz/mdflow-cz-team-workspace/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mdflow Cz Context](https://apis.io/jsonld/mdflow-cz/mdflow-cz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MDflow API Rules](https://apis.io/rules/mdflow-cz/mdflow-cz-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MDflow Authentication](https://apis.io/security/mdflow-cz/mdflow-cz-authentication/)
+- [MDflow Domain Security](https://apis.io/security/mdflow-cz/mdflow-cz-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MDflow Plans Pricing](https://apis.io/plans/mdflow-cz/mdflow-cz-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mdflow.cz/)
+- [Documentation](https://mdflow.cz/documentation)
+- [Getting started](https://mdflow.cz/blog/mdflow-mcp-setup-cursor-claude-desktop-codex)
+- [API reference](https://mdflow.cz/docs/api)
+- [Pricing](https://mdflow.cz/pricing)
+- [Changelog](https://mdflow.cz/changelog)
+- [Blog](https://mdflow.cz/blog)
+- [Terms of service](https://mdflow.cz/terms)
+- [Privacy policy](https://mdflow.cz/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.9** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 48.5 |
+
+**Agent readiness 50.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mdflow-cz/](https://apis.io/providers/mdflow-cz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MDflow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mdflow-cz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
